@@ -1,0 +1,64 @@
+@media (max-width: 900px){
+    h1,h2,h3 {
+        font-size: 20px !important;
+    }
+    h4 {
+        font-size: 16px !important;
+    }
+    h5, h6{
+        font-size: 15px !important;
+    }
+    p , a , li , button {
+        font-size: 11px !important;
+    }
+    .navbar-toggler{
+        display: block !important;
+    }
+    .light-mode header::after{
+        display: none;
+    }
+    .navbar .content .nav-conent{
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 116px;
+        background-color: #000;
+        flex-direction: column;
+        right: -100%;
+        z-index: 99999 !important;
+        text-align: center;
+        transition: all .5s linear;
+    }
+    .navbar{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .navbar .image-content {
+        width: 130px;
+    }
+    .light-mode .navbar .content .nav-conent{
+        background-color: #f2f2f2;
+    }
+    .acitve-nav{
+        right: 0% !important;
+    }
+    .navbar .content .nav-conent li{
+        margin: 30px 0px;
+    }
+    .copyrights .content{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .copyrights .content p{
+        margin-bottom: 20px;
+    }
+    header .image-cotnent ,.about-us .image-content img  , .help img , .service-request .image-content img{
+        height: 226px;
+    }
+    .order-mob-0{
+        order: 0 !important;
+    }
+    .order-mob-1{
+        order: 1 !important;
+    }
+}
